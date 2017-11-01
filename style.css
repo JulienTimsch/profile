@@ -1,0 +1,112 @@
+body {
+  background-color: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #7b848c;
+  font-size: 18px;
+  line-height: 1,2;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #6d7982;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+h1 {
+  color: #DD5555;
+  line-height: 1.6;
+}
+
+h4 {
+  font-size: 22px;
+  color: #ce8a8a;
+}
+
+a {
+  color: #ce8a8a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cc5555;
+}
+
+.container {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ce8a8a;
+  border-radius: 5px;
+  box-shadow:2px 2px 1px ;
+  padding: 25px;
+  margin: 15px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow:2px 2px 1px;
+  height: 180px;
+
+}
+
+.img-rectange {
+  height: 280px;
+  width: 220px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.left-padding {
+  padding-left: 22px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 75px;
+  padding-left: 0px;
+}
+
+.icon-big {
+  font-size: 25px;
+}
+
+.btn-red {
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 100px;
+  line-height: 3;
+}
+
+
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
